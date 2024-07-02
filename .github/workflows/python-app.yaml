@@ -4,7 +4,7 @@ def pode_ter_habilitacao():
         antecedentes = int(input("Você tem antecedentes criminais? (1-sim/2-não) "))
         exame_teorico = int(input("Você passou no exame teórico? (1-sim/2-não) "))
         exame_pratico = int(input("Você passou no exame prático? (1-sim/2-não) "))
-        if idade >= 18 and antecedentes == 2 and exame_teorico == 1 and exame_pratico == 1:
+        if (idade >= 18 and antecedentes == 2 and exame_teorico == 1 and exame_pratico == 1):
             print("Você pode obter a habilitação!")
         else:
             print("Você não atende aos requisitos para obter a habilitação.")
